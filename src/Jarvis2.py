@@ -15,7 +15,7 @@ import wikipedia
 import gui
 
 print("Initializing Jarvis....")
-master = getpass.getuser() or "Harsha"
+master = getpass.getuser() or "Sakaar"
 
 engine = pyttsx3.init()
 voices = engine.getProperty("voices")
@@ -67,7 +67,7 @@ def wish_me():
     else:
         speak("Good Evening" + master)
 
-    # speak("Hey I am Jarvis. How may I help you")
+    # speak("Hello I am Chiron. How may I help you")
 
 
 # This is where our programme begins....
@@ -102,7 +102,7 @@ def take_command():
     return query
 
 
-speak("Initializing Jarvis....")
+speak("Initializing Chiron....")
 wish_me()
 
 
